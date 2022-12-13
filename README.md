@@ -6,9 +6,9 @@ A simple calculator calculates how profitable it is to start renting now or late
 
 GitHub CI automatically generates versions of the application for different operating systems. See the Actions Tab.
 
-* [Windows version]()
-* [macOS version]()
-* [Linux version]()
+* [Windows version](https://github.com/demidko/rental-calculator/releases/download/2022.12.14/windows-rental-calculator.exe)
+* [macOS version](https://github.com/demidko/rental-calculator/releases/download/2022.12.14/macos-rental-calculator)
+* [Linux version](https://github.com/demidko/rental-calculator/releases/download/2022.12.14/linux-rental-calculator)
 
 ## Usage
 
