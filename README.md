@@ -1,11 +1,6 @@
 # Utility
 
-The cross-platform native Kotlin command line tool template.
-
-## Usage
-
-Make sure you are signed in to your GitHub account, then just [click here](https://github.com/demidko/utility/generate)
-to use template.
+A simple calculator calculates how profitable it is to start renting now or later.
 
 ## Download
 
@@ -15,38 +10,10 @@ GitHub CI automatically generates versions of the application for different oper
 * [macOS version]()
 * [Linux version]()
 
-## Build
+## Usage
 
-You can build the utility yourself from the source code. We need GCC or LLVM or Visual Studio toolchain. If you are
-using Windows, you need to configure [`windowsVsVarsPath`](build.gradle.kts) property.
-
-```shell
-./gradlew clean build
-```
-
-After that, we can run the release app:
+You need to specify the price, the day of entry (which will also be the day of payment) and the day of departure.
 
 ```shell
-./build/graal/utility
+./rental-calculator 2022-12-14 170000 2023-03-10
 ```
-
-## Containerization
-
-To build the image, we need Docker installed:
-
-```shell
-docker build . -t utility
-```
-
-After that, we can run the app in the container (if needed):
-
-```shell
-docker run -v `pwd`:`pwd` -w `pwd` -it --rm -p 80:80 utility
-```
-
-To clean up Docker use `docker system prune -fa`
-
-## Interop with Java
-
-By default, you can use any java class or library in this project.
-
